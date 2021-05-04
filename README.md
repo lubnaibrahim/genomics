@@ -1,6 +1,5 @@
 # genomics
-Using Runtime Reconfiguration to Accelerate   
-                          Short Read Alignment
+Using Runtime Reconfiguration to Accelerate Short Read Alignment.
 
 
 
@@ -10,7 +9,7 @@ Using Runtime Reconfiguration to Accelerate
 
 Student Name: Lubna Ibrahim Hamed Ibrahim Habeb.
 
-Doctor Name: Sara Metwally.
+Doctor Name: Sara ElMetwally.
 
 Faculty Name: Computers and Information sciences.
 
@@ -25,3 +24,6 @@ Introduction : NGS machines are capable of generating millions of short DNA frag
 Background :Two-stage architecture: the FM-index and Smith-Waterman model. The seed-and-extend model, which is essentially the accelerator of our accelerator, is also used.To generate the FM-index, we need to extend the R and extend R and the T(R) to form two functions: i(x) and c(n, x) For each character x, i(X) is the number of characters in R that is lexicographically smaller than x. The CACGT is the BWT of an example reference genome R = CACG.Seed-and-Extend Model — Smith-Waterman provides an optimal alignment for alignment with an optimal match/mismatch, insertion and deletion. Time complexity is prohibitively expensive given the reference is three billion base pair (bp). 
 
 Related work : Comprehensive surveys regarding the FPGA acceleration of short read alignment are provided in [2], [14]. Many existing accelerators are based on the suffix-trie method, Smith-Water man algorithm, or both. Recently, Fei et al. propose FPGASW that accelerates the Smith- waterman algorithm with affine gap model for read mapping.The complete NGS data undoubtedly complicatesthe FPGA implementation. Some researchers work around this problem by proposing a software and hardware co-design based on the defacto software framework. However, these designs still suffer from the software bottleneck and communication overhead, unless the implementation is based on a multi-FPGA platform.This paper presents an alignment pipeline that is similar to the algorithmic workflow of Bowtie2. With the consideration of quality metrics and N characters, these previous works accelerate the Smith-Waterman algorithm with affine-gap model. However, they only provide a sub-optimal speed-up since seeding still relies on the processor.
+
+
+
